@@ -1,0 +1,24 @@
+{
+	"name": "drawio-function-plot-plugin",
+	"displayName": "Draw.io: Function Plot Plugin",
+	"description": "Function Plot plugin for Draw.io Desktop",
+	"version": "0.0.1",
+	"license": "MIT",
+	"publisher": "OrangeX4",
+	"repository": "https://github.com/OrangeX4/drawio-function-plot-plugin",
+	"readme": "./README.md",
+	"scripts": {
+		"webpack:production": "webpack --mode production",
+		"webpack:development": "webpack --mode development",
+		"build": "npm run webpack:production",
+		"dev": "npm run webpack:development"
+	},
+	"devDependencies": {
+		"raw-loader": "^4.0.2",
+		"webpack": "^5.1.3",
+		"webpack-cli": "^4.0.0"
+	},
+	"dependencies": {
+		"function-plot": "^1.22.8"
+	}
+}
